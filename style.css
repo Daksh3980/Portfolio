@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+
+}
+
+header ul {
+    padding-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55rem;
+    font-size: 20px;
+}
+
+header ul li {
+    margin-left: 2.5rem;
+}
+
+header a {
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+    color: black;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.a {
+    width: 60%;
+}
+.btn{
+    padding-left: 30px;
+}
+.a h1 {
+    padding-left: 30px;
+    font-size: 40px;
+    word-spacing: 10px;
+}
+
+.a p {
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.a button {
+    
+    padding: 5px;
+    width: 100px;
+    border-radius: 18px;
+    /* margin: 25px; */
+    cursor: pointer;
+}
+.handles{
+    padding-left: 0px;
+    padding-top: 35px;
+}
+.handles ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.handles li {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.b {
+    width: 40%;
+
+}
+
+.b img {
+    width: 300px;
+    border-radius: 50%;
+    margin-left:20%;
+}
+.skill ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 12px;
+    justify-items: flex-start;
+}
+.skill ul li{
+    margin-left: 1rem;
+}
+.skill img{
+    border-radius: 50%;
+}
+.skill h2{
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.skill a{
+    display: block;
+    margin-left: 30px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    padding-left: 22px;
+    border-radius: 18px;
+    color: black;
+    background-color: #e7e7e7;
+}
+/* about */
+.about{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.about h1{
+    padding: 40px;
+    
+}
+.about img{
+    padding-bottom: 20px;
+    border-radius: 50%;
+}
+.about p{
+    /* text-align: justify; */
+    text-justify: center;
+}
+.about .handles{
+    margin: auto;
+    width: 50%;
+    /* padding: 10px; */
+    text-align: center;
+
+}
